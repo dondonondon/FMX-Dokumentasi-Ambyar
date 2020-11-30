@@ -1,0 +1,307 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 748
+  ClientWidth = 543
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object tcMain: TTabControl
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    FullSize = True
+    Position.Y = 88.000000000000000000
+    Size.Width = 543.000000000000000000
+    Size.Height = 660.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      543s
+      611s
+      543s
+      611s
+      543s
+      611s
+      543s
+      611s)
+    object tiAlign: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.500000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = True
+      Size.Width = 135.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Align'
+      object btnAlign: TCornerButton
+        Align = Top
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 527.000000000000000000
+        Size.Height = 45.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Load Data'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnAlignClick
+      end
+      object lbAlign: TListBox
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 630.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Visible = False
+        ShowScrollBars = False
+        Columns = 2
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        OnItemClick = lbAnchorItemClick
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 630.000000000000000000
+      end
+      object vsAlign: TVertScrollBox
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 534.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ShowScrollBars = False
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 534.000000000000000000
+      end
+    end
+    object tiAnchor: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.500000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = False
+      Size.Width = 135.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Anchor'
+      object btnAnchor: TCornerButton
+        Anchors = [akLeft, akTop, akRight]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 527.000000000000000000
+        Size.Height = 45.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Load Data'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnAnchorClick
+      end
+      object lbAnchor: TListBox
+        Tag = 1
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 61.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 542.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Visible = False
+        ShowScrollBars = False
+        Columns = 2
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        OnItemClick = lbAnchorItemClick
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 542.000000000000000000
+      end
+      object vsAnchor: TVertScrollBox
+        Tag = 1
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 69.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 534.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ShowScrollBars = False
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 534.000000000000000000
+      end
+    end
+    object tiAlignAPM: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.500000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = False
+      Size.Width = 135.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'AlignAPM'
+      object btnAlignAPM: TCornerButton
+        Align = Top
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 527.000000000000000000
+        Size.Height = 45.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Load Data'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnAlignAPMClick
+      end
+      object vsAlignAPM: TVertScrollBox
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 534.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ShowScrollBars = False
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 534.000000000000000000
+      end
+    end
+    object tiAnchorAPM: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.500000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = False
+      Size.Width = 138.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'AnchorAPM'
+      object btnAnchorAPM: TCornerButton
+        Align = Top
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 527.000000000000000000
+        Size.Height = 45.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Load Data'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnAnchorAPMClick
+      end
+      object vsAnchorAPM: TVertScrollBox
+        Tag = 1
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 527.000000000000000000
+        Size.Height = 534.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ShowScrollBars = False
+        Viewport.Width = 527.000000000000000000
+        Viewport.Height = 534.000000000000000000
+      end
+    end
+  end
+  object btnClear: TCornerButton
+    Anchors = [akLeft, akTop, akRight]
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 4.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 527.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Clear Data'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnClearClick
+  end
+  object lblSw: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 527.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 11.000000000000000000
+    Text = 'lblSw'
+    TabOrder = 2
+  end
+  object btnDown: TCornerButton
+    Anchors = [akRight, akBottom]
+    Position.X = 472.000000000000000000
+    Position.Y = 680.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 55.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'DW'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnDownClick
+  end
+end

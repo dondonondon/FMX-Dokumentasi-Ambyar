@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/20 23:02:13.000.925,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/30 02:04:32.000.240,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/02 10:03:34.000.039,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/23 09:40:37.000.278,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/23 09:43:49.000.214,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/30 13:05:52.070,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/30 13:06:10.184,D:\Job\Dokumentasi\Drag n Drop\frMain.pas=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/30 13:06:10.184,D:\Job\Dokumentasi\Drag n Drop\frMain.fmx=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/11/30 13:06:14.755,D:\Job\Dokumentasi\Drag n Drop\prjDragDrop.dproj=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="c6fa6968" Android64="c6fa6968"/>
+		<PiOSLocal iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

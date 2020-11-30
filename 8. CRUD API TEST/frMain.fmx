@@ -1,0 +1,177 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 720
+  ClientWidth = 632
+  StyleBook = SB
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  OnFocusChanged = FormFocusChanged
+  OnVirtualKeyboardShown = FormVirtualKeyboardShown
+  OnVirtualKeyboardHidden = FormVirtualKeyboardHidden
+  DesignerMasterStyle = 0
+  object tcMain: TTabControl
+    Align = Client
+    Size.Width = 632.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'tcMainStyle1'
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      632s
+      720s
+      632s
+      720s)
+    object tiMain: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiMain'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object loMain: TLayout
+        Align = Client
+        Size.Width = 632.000000000000000000
+        Size.Height = 720.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object vsMain: TVertScrollBox
+          Align = Client
+          Size.Width = 632.000000000000000000
+          Size.Height = 720.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ShowScrollBars = False
+          Viewport.Width = 632.000000000000000000
+          Viewport.Height = 720.000000000000000000
+          object loFrame: TLayout
+            Align = Client
+            Size.Width = 632.000000000000000000
+            Size.Height = 720.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+          end
+        end
+        object faFromX: TFloatAnimation
+          Duration = 0.349999994039535500
+          OnProcess = faFromXProcess
+          OnFinish = faFromXFinish
+          PropertyName = 'Position.X'
+          StartValue = 0.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+        object faGoX: TFloatAnimation
+          Duration = 0.349999994039535500
+          OnProcess = faFromXProcess
+          OnFinish = faFromXFinish
+          PropertyName = 'Position.X'
+          StartValue = 0.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+      end
+    end
+    object tiLog: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiLog'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object memLog: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Size.Width = 360.000000000000000000
+        Size.Height = 720.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 356.000000000000000000
+        Viewport.Height = 716.000000000000000000
+      end
+    end
+  end
+  object loLoad: TLayout
+    Align = Contents
+    Size.Width = 360.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object aniLoad: TFMXLoadingIndicator
+      Align = Center
+      Size.Width = 45.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Color = xFF1282B2
+      Kind = ArcsRing
+    end
+  end
+  object SB: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'Windows 10 Desktop'
+        ResourcesBin = {
+          464D585F5354594C4520322E3501060C74634D61696E5374796C653103180400
+          5450463007544C61796F757400095374796C654E616D65060C74634D61696E53
+          74796C653105416C69676E070643656E7465720A53697A652E57696474680500
+          000000000000B407400B53697A652E4865696768740500000000000000B40840
+          1453697A652E506C6174666F726D44656661756C7408085461624F7264657202
+          00000C5442727573684F626A65637400095374796C654E616D6506107363726F
+          6C6C6261636B67726F756E640B42727573682E436F6C6F720709784646463046
+          30463000000C545374796C654F626A6563740005416C69676E0708436F6E7465
+          6E74730C536F757263654C6F6F6B7570061B57696E646F777320313020446573
+          6B746F707374796C652E706E670A53697A652E57696474680500000000000000
+          B407400B53697A652E4865696768740500000000000000B408401453697A652E
+          506C6174666F726D44656661756C74080A536F757263654C696E6B0E010E4361
+          70496E736574732E4C6566740500000000000000F002400D436170496E736574
+          732E546F700500000000000000F002400F436170496E736574732E5269676874
+          0500000000000000F0024010436170496E736574732E426F74746F6D05000000
+          00000000F002400F536F75726365526563742E4C6566740500000000000000C4
+          05400E536F75726365526563742E546F700500000000000000A0014010536F75
+          726365526563742E526967687405000000000000009F064011536F7572636552
+          6563742E426F74746F6D0500000000000000A4054000010E436170496E736574
+          732E4C6566740500000000000000B003400D436170496E736574732E546F7005
+          00000000000000B003400F436170496E736574732E5269676874050000000000
+          0000B0034010436170496E736574732E426F74746F6D0500000000000000B003
+          40055363616C650500000000000000C0FF3F0F536F75726365526563742E4C65
+          667405000000000000009306400E536F75726365526563742E546F7005000000
+          00000000E0014010536F75726365526563742E52696768740500000000000000
+          EE064011536F75726365526563742E426F74746F6D0500000000000000F60540
+          00010E436170496E736574732E4C6566740500000000000000F003400D436170
+          496E736574732E546F700500000000000000F003400F436170496E736574732E
+          52696768740500000000000000F0034010436170496E736574732E426F74746F
+          6D0500000000000000F00340055363616C6505000000000000008000400F536F
+          75726365526563742E4C6566740500000000000000C406400E536F7572636552
+          6563742E546F700500000000000000A0024010536F75726365526563742E5269
+          67687405000000000000009F074011536F75726365526563742E426F74746F6D
+          0500000000000000A406400000064F706171756509000000}
+      end>
+    Left = 8
+    Top = 8
+  end
+  object TM: TToastManager
+    Left = 56
+    Top = 8
+  end
+end

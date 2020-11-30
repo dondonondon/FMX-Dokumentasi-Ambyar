@@ -1,0 +1,24 @@
+object FLoading: TFLoading
+  Size.Width = 360.000000000000000000
+  Size.Height = 720.000000000000000000
+  Size.PlatformDefault = False
+  object background: TRectangle
+    Fill.Color = xFF47AA82
+    Position.X = 80.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 553.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object logo: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 88.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

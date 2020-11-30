@@ -1,0 +1,35 @@
+[1]
+Pastikan sudah menginstall component tambahan - https://github.com/zhaoyipeng/FMXComponents
+- https://github.com/yangyxd/FMXUI
+
+[2]
+Pastikan sudah menginstall Xampp (untuk localhost)
+
+[3]
+Jika ingin mengcompile ke dalam {.EXE} pastikan copy folder "img" yang berada di folder assets ke dalam 1 folder {.EXE} ex "...\Win64\Release\"
+
+[4]
+Untuk mengganti URL API buka uRest.pas
+
+=================
+Menambahkan Frame
+=================
+[5]
+Untuk menambah Frame, pastikan setelah membuat frame, tambahkan coding di dalam uGoFrame.pas, mengikuti kodingan sebelumnya
+
+[6]
+Setelah itu, tambahkan codingan di dalam uMain.pas di procedure
+"procedure fnGetFromFrame(from : String);" dan 
+"procedure fnChangeFrame(go : String; stat : Boolean = False);" 
+mengikuti kodingan sebelumnya. Pastikan tambahkan const di uMain.pas terlebih dahulu terserah namanya 
+
+[7]
+Setelah mengikuti langkah [6] dam [7] Frame bisa dipanggil menggukan procedure
+
+fnGoframe(frame saat ini, frame yang dituju, False / True) Default False
+jika False = Animasi Pindah Ke
+jika True = Animasi Kembali
+
+[8]
+Jika bingun silahkan lihat youtube Channel Blangkon FA
+kurang lebih caranya sama, dikarenakan yang di Youtube adalah cara lama

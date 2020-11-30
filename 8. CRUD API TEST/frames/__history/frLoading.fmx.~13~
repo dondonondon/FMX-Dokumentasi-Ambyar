@@ -1,0 +1,10 @@
+object FLoading: TFLoading
+  Size.Width = 360.000000000000000000
+  Size.Height = 720.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Size.Width = 360.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

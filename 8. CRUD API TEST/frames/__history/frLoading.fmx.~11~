@@ -1,0 +1,10 @@
+object FLoading: TFLoading
+  Size.Width = 360.000000000000000000
+  Size.Height = 720.000000000000000000
+  Size.PlatformDefault = False
+  object tiMove: TTimer
+    Enabled = False
+    Left = 8
+    Top = 16
+  end
+end
