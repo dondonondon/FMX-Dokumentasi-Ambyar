@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/06 11:58:45.000.756,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/22 08:30:02.000.568,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/02 13:42:03.000.610,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/06 22:26:35.000.652,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/06 23:38:23.000.115,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/20 07:36:00.000.824,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/21 05:23:21.000.057,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/23 19:04:14.000.626,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/23 19:12:44.000.050,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/23 22:19:14.000.838,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/07 23:08:50.201,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/07 23:12:21.726,C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\frMain.fmx=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/01/07 23:12:21.726,C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\frMain.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/07 23:12:27.694,C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\prjPuzzle.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/01/07 23:12:37.713,=C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\sources\uFunc.pas</Transaction>
+    <Transaction>2020/01/07 23:12:37.739,=C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\sources\uHelper.pas</Transaction>
+    <Transaction>2020/01/07 23:12:43.547,=C:\Users\User\Documents\Blangkon\Aplikasi\FMX-PUZZLE-GAME\frame\frGame.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="Nexus_5_API_29" Android64="Nexus_5_API_29"/>
+	</ActiveMobileDevice>
+</BorlandProject>

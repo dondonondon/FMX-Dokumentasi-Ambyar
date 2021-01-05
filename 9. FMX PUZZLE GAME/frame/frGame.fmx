@@ -1,0 +1,309 @@
+object FGame: TFGame
+  Size.Width = 854.000000000000000000
+  Size.Height = 480.000000000000000000
+  Size.PlatformDefault = False
+  OnMouseMove = FrameMouseMove
+  object background: TImage
+    MultiResBitmap.Height = 713
+    MultiResBitmap.Width = 1000
+    MultiResBitmap = <
+      item
+      end>
+    Size.Width = 854.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    WrapMode = Stretch
+  end
+  object loGame: TLayout
+    HitTest = True
+    Size.Width = 854.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnClick = loGameClick
+    OnMouseMove = FrameMouseMove
+    object loMain: TLayout
+      Position.X = 227.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 400.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object bgMain: TRectangle
+        Fill.Kind = None
+        Size.Width = 400.000000000000000000
+        Size.Height = 400.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFF1E18C
+        Stroke.Thickness = 4.000000000000000000
+        XRadius = 2.000000000000000000
+        YRadius = 2.000000000000000000
+      end
+      object seMain: TShadowEffect
+        Distance = 9.000000000000000000
+        Direction = 135.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claGray
+      end
+      object imgMain: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Opacity = 0.300000011920929000
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 392.000000000000000000
+        Size.Height = 392.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+        object reScan: TRectangle
+          Fill.Kind = None
+          Size.Width = 100.000000000000000000
+          Size.Height = 100.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFFE3E3E3
+          Stroke.Thickness = 0.500000000000000000
+          OnMouseEnter = reScanMouseEnter
+          object coA2: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Stroke.Color'
+            StartValue = xFFD9D9D9
+            StopValue = xFFCBEB78
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+      end
+      object flMain: TLayout
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 392.000000000000000000
+        Size.Height = 392.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+    object reTemp: TRectangle
+      Fill.Kind = None
+      Position.X = 664.000000000000000000
+      Position.Y = 143.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      Visible = False
+      OnClick = reTempClick
+      object imgTemp: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Right
+        HitTest = False
+        Size.Width = 100.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+      end
+      object faX: TFloatAnimation
+        Tag = 1
+        Duration = 0.200000002980232200
+        OnFinish = faXFinish
+        PropertyName = 'Position.X'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 0.000000000000000000
+      end
+      object faY: TFloatAnimation
+        Duration = 0.200000002980232200
+        OnFinish = faXFinish
+        PropertyName = 'Position.Y'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 0.000000000000000000
+      end
+    end
+    object loHide: TLayout
+      Size.Width = 121.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object btnBack: TCornerButton
+        StyledSettings = [Family, Size, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 100.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'RENEW'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnBackClick
+      end
+      object btnLog: TCornerButton
+        StyledSettings = [Family, Size, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 48.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 100.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'LOG'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = btnLogClick
+      end
+      object btnShow: TCornerButton
+        Align = Bottom
+        Position.Y = 88.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 121.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'btnIdle'
+        TabOrder = 2
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+      end
+    end
+  end
+  object lblXY: TLabel
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Position.X = 336.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 18.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'lblXY'
+    TabOrder = 2
+  end
+  object loResult: TLayout
+    Margins.Left = 25.000000000000000000
+    Margins.Top = 25.000000000000000000
+    Margins.Right = 25.000000000000000000
+    Margins.Bottom = 25.000000000000000000
+    Position.X = 25.000000000000000000
+    Position.Y = 25.000000000000000000
+    Size.Width = 804.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object bgResult: TRectangle
+      Fill.Color = claBlack
+      Opacity = 0.850000023841857900
+      Size.Width = 804.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFEDD470
+      Stroke.Thickness = 10.000000000000000000
+      XRadius = 8.000000000000000000
+      YRadius = 8.000000000000000000
+    end
+    object memResult: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Lines.Strings = (
+        'Kudanil adalah hewan')
+      StyledSettings = [Family]
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Margins.Left = 15.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 49.000000000000000000
+      Size.Width = 774.000000000000000000
+      Size.Height = 366.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'memMain'
+      TabOrder = 1
+      Viewport.Width = 774.000000000000000000
+      Viewport.Height = 366.000000000000000000
+    end
+    object lblNama: TLabel
+      AutoSize = True
+      StyledSettings = [Family]
+      Margins.Top = 15.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 804.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'KUDANIL'
+      TabOrder = 2
+    end
+    object btnClose: TCornerButton
+      Position.X = 15.000000000000000000
+      Position.Y = 15.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 35.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'X'
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = btnCloseClick
+    end
+    object faResult: TFloatAnimation
+      Duration = 0.699999988079071000
+      Interpolation = Quadratic
+      OnFinish = faResultFinish
+      PropertyName = 'Opacity'
+      StartValue = 0.000000000000000000
+      StopValue = 1.000000000000000000
+    end
+  end
+  object lblSelamat: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 45.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 763.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'SELAMAT'
+    Visible = False
+    TabOrder = 4
+    object faFont: TFloatAnimation
+      Duration = 2.000000000000000000
+      Interpolation = Bounce
+      OnProcess = faFontProcess
+      OnFinish = faFontFinish
+      PropertyName = 'Font.Size'
+      StartValue = 0.000000000000000000
+      StopValue = 120.000000000000000000
+    end
+    object faOpaFont: TFloatAnimation
+      Duration = 0.300000011920929000
+      OnFinish = faOpaFontFinish
+      PropertyName = 'Opacity'
+      StartValue = 1.000000000000000000
+      StopValue = 0.000000000000000000
+    end
+  end
+end
