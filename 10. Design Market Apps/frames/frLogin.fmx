@@ -1,0 +1,130 @@
+object FLogin: TFLogin
+  Size.Width = 375.000000000000000000
+  Size.Height = 720.000000000000000000
+  Size.PlatformDefault = False
+  object background: TRectangle
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Fill.Color = claWhite
+    Size.Width = 375.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object loMain: TLayout
+    Align = Client
+    Size.Width = 375.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Baskerville Old Face'
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Sign In'
+      TabOrder = 1
+    end
+    object btnBack: TCornerButton
+      Images = DM.img
+      ImageIndex = 0
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 25.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'btnImg'
+      TabOrder = 0
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object imgLogo: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Anchors = [akLeft, akTop, akRight]
+      Position.Y = 80.000000000000000000
+      Size.Width = 375.000000000000000000
+      Size.Height = 130.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      StyleLookup = 'edLogin2'
+      TabOrder = 4
+      TextSettings.Font.Family = 'Baskerville Old Face'
+      TextSettings.Font.Size = 14.000000000000000000
+      Position.X = 29.000000000000000000
+      Position.Y = 273.000000000000000000
+      Size.Width = 316.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Username'
+      StyledSettings = [Style, FontColor]
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      StyleLookup = 'edLogin2'
+      TabOrder = 3
+      Password = True
+      TextSettings.Font.Family = 'Baskerville Old Face'
+      TextSettings.Font.Size = 14.000000000000000000
+      Position.X = 29.000000000000000000
+      Position.Y = 329.000000000000000000
+      Size.Width = 316.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Password'
+      StyledSettings = [Style, FontColor]
+      object PasswordEditButton1: TPasswordEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object Label2: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      StyledSettings = [Style]
+      Position.X = 29.000000000000000000
+      Position.Y = 384.000000000000000000
+      Size.Width = 316.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Baskerville Old Face'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF7D7D7D
+      TextSettings.HorzAlign = Trailing
+      Text = 'Forgot your password ?'
+      TabOrder = 5
+    end
+    object CornerButton1: TCornerButton
+      Anchors = [akLeft, akTop, akRight]
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 29.000000000000000000
+      Position.Y = 440.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 316.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'btnMain'
+      TabOrder = 6
+      Text = 'Log In'
+      TextSettings.Font.Size = 15.000000000000000000
+      XRadius = 8.000000000000000000
+      YRadius = 8.000000000000000000
+      OnClick = CornerButton1Click
+    end
+  end
+end
