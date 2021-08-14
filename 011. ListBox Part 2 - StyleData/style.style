@@ -1,0 +1,343 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'lbCheckbox'
+    Align = Center
+    Size.Width = 441.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 9
+    object TLayout
+      Align = Left
+      Size.Width = 18.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      object TCheckStyleObject
+        StyleName = 'background'
+        Align = Center
+        CapMode = Tile
+        Locked = True
+        SourceLookup = 'Windows 10 Desktopstyle.png'
+        Size.Width = 13.000000000000000000
+        Size.Height = 13.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+        ActiveTrigger = Checked
+        ActiveLink = <
+          item
+            SourceRect.Left = 31.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 44.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 46.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 65.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 62.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 88.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+        SourceLink = <
+          item
+            SourceRect.Left = 3.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 16.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 4.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 23.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 6.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 32.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+        HotLink = <
+          item
+            SourceRect.Left = 17.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 30.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 25.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 44.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 34.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 60.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+        ActiveHotLink = <
+          item
+            SourceRect.Left = 45.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 58.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 67.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 86.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 90.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 116.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+        FocusedLink = <
+          item
+            SourceRect.Left = 17.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 30.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 25.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 44.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 34.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 60.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+        ActiveFocusedLink = <
+          item
+            SourceRect.Left = 45.000000000000000000
+            SourceRect.Top = 146.000000000000000000
+            SourceRect.Right = 58.000000000000000000
+            SourceRect.Bottom = 159.000000000000000000
+          end
+          item
+            Scale = 1.500000000000000000
+            SourceRect.Left = 67.000000000000000000
+            SourceRect.Top = 219.000000000000000000
+            SourceRect.Right = 86.000000000000000000
+            SourceRect.Bottom = 238.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 90.000000000000000000
+            SourceRect.Top = 292.000000000000000000
+            SourceRect.Right = 116.000000000000000000
+            SourceRect.Bottom = 318.000000000000000000
+          end>
+      end
+    end
+    object TButtonStyleTextObject
+      StyleName = 'text'
+      Align = Client
+      Locked = True
+      Margins.Left = 3.000000000000000000
+      Size.Width = 420.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Text'
+      ShadowVisible = False
+      HotColor = claBlack
+      FocusedColor = claBlack
+      NormalColor = claBlack
+      PressedColor = claBlack
+    end
+  end
+  object TLayout
+    StyleName = 'lbNull'
+    Align = Center
+    Size.Width = 377.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 28
+  end
+  object TRectangle
+    StyleName = 'pMain'
+    Align = Center
+    Fill.Kind = None
+    HitTest = False
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+  end
+  object TLayout
+    StyleName = 'lbBanner'
+    Align = Center
+    Size.Width = 377.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 30
+    object TPanel
+      StyleName = 'sPanel'
+      Align = Contents
+      ControlType = Platform
+      Margins.Top = 6.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Size.Width = 377.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object TLayout
+    StyleName = 'lbData'
+    Align = Center
+    Size.Width = 377.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 27
+    object TRectangle
+      StyleName = 'bgTemp'
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Fill.Color = xFF535A6C
+      HitTest = False
+      Position.X = 16.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 345.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+    end
+    object TLabel
+      StyleName = 'lblAlias'
+      StyledSettings = [Family, Style]
+      Position.X = 24.000000000000000000
+      Position.Y = 36.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.FontColor = xFFDDDDDD
+      TextSettings.WordWrap = False
+      Text = 'Astra Agro Lestari Tbk.'
+      TabOrder = 1
+    end
+    object TLabel
+      StyleName = 'lblKet'
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family, Style]
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = 248.000000000000000000
+      Position.Y = 36.000000000000000000
+      Size.Width = 85.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.FontColor = xFFE24E5A
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = '+20 (+3.50%)'
+      TabOrder = 3
+    end
+    object TLabel
+      StyleName = 'lblPrice'
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family]
+      Position.X = 248.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 85.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 12.500000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFFDDDDDD
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = '16,375'
+      TabOrder = 0
+    end
+    object TLabel
+      StyleName = 'lblRegion'
+      StyledSettings = [Family]
+      Position.X = 24.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.500000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.WordWrap = False
+      Text = 'AALI'
+      TabOrder = 2
+    end
+    object TRectangle
+      StyleName = 'reMore'
+      Anchors = [akTop, akRight, akBottom]
+      Corners = [TopRight, BottomRight]
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF535A6C
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF424858
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.Y = 0.500000000000000000
+      Fill.Gradient.StopPosition.X = 1.000000000000000000
+      Fill.Gradient.StopPosition.Y = 0.500000000000000000
+      Position.X = 336.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object glMore: TGlyph
+        Size.Width = 25.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TImage
+      StyleName = 'imgChart'
+      MultiResBitmap = <
+        item
+        end>
+      Anchors = [akLeft, akTop, akRight]
+      HitTest = False
+      Position.X = 144.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 109.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

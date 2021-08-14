@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/07/25 14:20:29.000.197,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/06 12:30:44.000.359,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 00:25:51.000.526,=C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 00:26:12.000.120,C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Job\Dokumentasi\ListBox Test\frMain.fmx</Transaction>
+    <Transaction>2021/08/09 00:26:12.000.120,C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Job\Dokumentasi\ListBox Test\frMain.pas</Transaction>
+    <Transaction>2021/08/09 00:26:15.000.545,C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Job\Dokumentasi\ListBox Test\prjListBox.dproj</Transaction>
+    <Transaction>2021/08/09 01:13:28.079,D:\Job\Dokumentasi\ListBox Test\prjListBox2.dproj=D:\Job\Dokumentasi\ListBox Test\prjListBox.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64="055832507T002127"/>
+	</ActiveMobileDevice>
+</BorlandProject>
