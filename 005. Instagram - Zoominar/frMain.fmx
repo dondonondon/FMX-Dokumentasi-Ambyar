@@ -85,6 +85,7 @@ object FMain: TFMain
     Size.Width = 345.000000000000000000
     Size.Height = 561.000000000000000000
     Size.PlatformDefault = False
+    Visible = False
     TabOrder = 6
     object imgFeedProfile: TCircle
       Tag = 102

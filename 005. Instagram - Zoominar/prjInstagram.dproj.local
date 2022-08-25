@@ -17,23 +17,23 @@
     <Transaction>2020/03/31 06:42:12.000.541,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/05/06 04:09:30.000.216,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/08/13 20:38:22.000.108,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/08/13 20:39:12.000.535,F:\Job\Dokumentasi\Instagram - Zoominar\frMain.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/08/13 20:39:12.000.535,F:\Job\Dokumentasi\Instagram - Zoominar\frMain.fmx=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2020/08/13 20:39:18.000.865,F:\Job\Dokumentasi\Instagram - Zoominar\prjInstagram.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2020/08/14 00:07:26.000.979,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\4.png</Transaction>
+    <Transaction>2020/08/13 20:39:12.000.535,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Job\Dokumentasi\Instagram - Zoominar\frMain.pas</Transaction>
+    <Transaction>2020/08/13 20:39:12.000.535,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.fmx=F:\Job\Dokumentasi\Instagram - Zoominar\frMain.fmx</Transaction>
+    <Transaction>2020/08/13 20:39:18.000.865,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Job\Dokumentasi\Instagram - Zoominar\prjInstagram.dproj</Transaction>
     <Transaction>2020/08/14 00:07:26.000.898,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\2.png</Transaction>
-    <Transaction>2020/08/14 00:07:26.000.860,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\1.png</Transaction>
     <Transaction>2020/08/14 00:07:26.000.937,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\3.png</Transaction>
+    <Transaction>2020/08/14 00:07:26.000.979,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\4.png</Transaction>
+    <Transaction>2020/08/14 00:07:26.000.860,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\1.png</Transaction>
     <Transaction>2020/08/14 00:07:27.000.077,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\6.png</Transaction>
-    <Transaction>2020/08/14 00:07:27.000.032,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\5.png</Transaction>
-    <Transaction>2020/08/14 00:07:27.000.130,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\7.png</Transaction>
-    <Transaction>2020/08/14 00:07:27.000.188,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\8.png</Transaction>
     <Transaction>2020/08/14 00:07:27.000.254,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\9.png</Transaction>
+    <Transaction>2020/08/14 00:07:27.000.188,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\8.png</Transaction>
+    <Transaction>2020/08/14 00:07:27.000.130,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\7.png</Transaction>
+    <Transaction>2020/08/14 00:07:27.000.032,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\5.png</Transaction>
     <Transaction>2020/08/14 00:47:05.000.540,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\story.png</Transaction>
-    <Transaction>2020/08/19 00:27:29.102,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\feed.jpg</Transaction>
-    <Transaction>2020/08/19 00:40:09.129,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\profil.jpg</Transaction>
+    <Transaction>2020/08/19 00:27:29.000.102,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\feed.jpg</Transaction>
+    <Transaction>2020/08/19 00:40:09.000.129,=F:\Job\Dokumentasi\Instagram - Zoominar\assets\img\profil.jpg</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5" Android="Nexus_One_API_22" Android64="05041259BK001360"/>
+		<NoProfile iOSSimulator="iPhone5" Android="055832507T002127" Android64="055832507T002127"/>
 	</ActiveMobileDevice>
 </BorlandProject>

@@ -20,7 +20,7 @@ uses
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     ;
   {$ELSEIF Defined(MSWINDOWS)}
-    ,IWSystem;
+    ;
   {$ELSE}
   ;
   {$ENDIF}
@@ -278,7 +278,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     Result := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    Result := gsAppPath + 'img' + PathDelim;
+    Result := ExpandFileName(GetCurrentDir) + PathDelim + 'img' + PathDelim;
 
     if not DirectoryExists(Result) then
       CreateDir(Result);
@@ -290,7 +290,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     Result := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    Result := gsAppPath + AFolder + PathDelim;
+    Result := ExpandFileName(GetCurrentDir) + PathDelim + AFolder + PathDelim;
 
     if not DirectoryExists(Result) then
       CreateDir(Result);
@@ -328,7 +328,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim;
   {$ENDIF}
 
   Result := xx + str;
@@ -629,7 +629,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath + 'img' + PathDelim;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim + 'img' + PathDelim;
   {$ENDIF}
   xx := fnReplaceStr(xx, '\\','\');
   img.Bitmap.SaveToFile(xx + nmFile);
@@ -659,7 +659,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath + 'img' + PathDelim;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim + 'img' + PathDelim;
   {$ENDIF}
   w := img.Bitmap.Width;
   h := img.Bitmap.Height;
@@ -684,7 +684,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath + 'img' + PathDelim;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim + 'img' + PathDelim;
   {$ENDIF}
   w := img.Fill.Bitmap.Bitmap.Width;
   h := img.Fill.Bitmap.Bitmap.Height;
@@ -709,7 +709,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath + 'img' + PathDelim;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim + 'img' + PathDelim;
   {$ENDIF}
   w := img.Fill.Bitmap.Bitmap.Width;
   h := img.Fill.Bitmap.Bitmap.Height;
@@ -733,7 +733,7 @@ begin
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
     xx := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF Defined(MSWINDOWS)}
-    xx := gsAppPath;
+    xx := ExpandFileName(GetCurrentDir) + PathDelim;
   {$ENDIF}
 
   if FileExists(xx + nmFile) then

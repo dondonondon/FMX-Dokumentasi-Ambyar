@@ -11,7 +11,6 @@ uses
   {$IF DEFINED (ANDROID)}
   , Androidapi.Helpers
   {$ELSEIF DEFINED (MSWINDOWS)}
-  , IWSystem
   {$ENDIF}
   ;
 
@@ -104,7 +103,7 @@ begin
   {$IF DEFINED (ANDROID)}
   loc := TPath.GetDocumentsPath + PathDelim;
   {$ELSEIF DEFINED (MSWINDOWS)}
-  loc := gsAppPath;
+  loc := ExpandFileName(GetCurrentDir) + PathDelim;
   {$ENDIF}
 
   for i := 0 to lo.ControlsCount - 1 do begin
@@ -165,7 +164,7 @@ begin
     {$IF DEFINED (ANDROID)}
     loc := TPath.GetDocumentsPath + PathDelim;
     {$ELSEIF DEFINED (MSWINDOWS)}
-    loc := gsAppPath;
+    loc := ExpandFileName(GetCurrentDir) + PathDelim;
     {$ENDIF}
 
       for i := 0 to 8 do begin
