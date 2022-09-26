@@ -1,0 +1,168 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = 'Main Form'
+  ClientHeight = 720
+  ClientWidth = 480
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object mpUI: TMediaPlayer
+    Left = 432
+    Top = 16
+  end
+  object memText: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      'Pilihan nomor 1 dan dua silahkan maju kedepan')
+    TextSettings.WordWrap = True
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 465.000000000000000000
+    Size.Height = 585.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 461.000000000000000000
+    Viewport.Height = 581.000000000000000000
+  end
+  object btnClear: TCornerButton
+    Anchors = [akRight, akBottom]
+    Position.X = 376.000000000000000000
+    Position.Y = 544.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 88.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Bershikan'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnClearClick
+  end
+  object cbType: TComboBox
+    Anchors = [akRight, akBottom]
+    Items.Strings = (
+      'Basic'
+      'WaveNet')
+    ItemIndex = 0
+    Position.X = 256.000000000000000000
+    Position.Y = 608.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Visible = False
+  end
+  object cbVoiceName: TComboBox
+    Anchors = [akRight, akBottom]
+    Items.Strings = (
+      'A'
+      'B'
+      'C'
+      'D')
+    ItemIndex = 0
+    Position.X = 368.000000000000000000
+    Position.Y = 608.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Visible = False
+  end
+  object cbSource: TComboBox
+    Anchors = [akLeft, akRight, akBottom]
+    Items.Strings = (
+      '-- Pilih Source API TTS'
+      'Google Translate (Internet)'
+      'Cloud Google (Internet)'
+      'API OS (Only Android) (No Internet)'
+      'SAPI (Only Windows) (No Internet - Default bahasa Speech OS)')
+    ItemIndex = 0
+    Position.X = 8.000000000000000000
+    Position.Y = 608.000000000000000000
+    Size.Width = 465.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    OnChange = cbSourceChange
+  end
+  object tbSpeed: TTrackBar
+    Anchors = [akRight, akBottom]
+    CanParentFocus = True
+    Max = 4.000000000000000000
+    Min = 0.250000000000000000
+    Orientation = Horizontal
+    Position.X = 256.000000000000000000
+    Position.Y = 684.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Value = 0.899999976158142100
+    Visible = False
+    OnChange = tbSpeedChange
+  end
+  object tbPitch: TTrackBar
+    Anchors = [akRight, akBottom]
+    CanParentFocus = True
+    Max = 20.000000000000000000
+    Min = -20.000000000000000000
+    Orientation = Horizontal
+    Position.X = 368.000000000000000000
+    Position.Y = 684.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Visible = False
+    OnChange = tbPitchChange
+  end
+  object lblSpeed: TLabel
+    Anchors = [akRight, akBottom]
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 256.000000000000000000
+    Position.Y = 664.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    Text = 'Speed'
+    Visible = False
+    TabOrder = 12
+  end
+  object lblPitch: TLabel
+    Anchors = [akRight, akBottom]
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 368.000000000000000000
+    Position.Y = 664.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    Text = 'Pitch'
+    Visible = False
+    TabOrder = 11
+  end
+  object btnSpeak: TCornerButton
+    Anchors = [akLeft, akRight, akBottom]
+    Position.X = 8.000000000000000000
+    Position.Y = 664.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 465.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Speeak'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnSpeakClick
+  end
+  object TTS: TAndroidTTS
+    Left = 112
+    Top = 120
+  end
+end
