@@ -30,9 +30,9 @@
     <Transaction>2022/08/23 14:34:29.000.966,C:\Users\LENOVO\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\LENOVO\Documents\Blangkon\Aplikasi\Sunny Malaysia\Scroll Down Load\prjScrollToLoad.dproj</Transaction>
     <Transaction>2022/08/23 15:03:36.000.546,=C:\Users\LENOVO\Documents\Blangkon\Aplikasi\Sunny Malaysia\Scroll Down Load\sources\BFA.Func.pas</Transaction>
     <Transaction>2022/08/23 15:03:36.000.551,=C:\Users\LENOVO\Documents\Blangkon\Aplikasi\Sunny Malaysia\Scroll Down Load\sources\BFA.Helper.MemTable.pas</Transaction>
-    <Transaction>2022/08/25 15:07:06.563,=C:\Users\LENOVO\Documents\Blangkon\Aplikasi\Sunny Malaysia\Scroll Down Load\sources\BFA.Helper.Main.pas</Transaction>
+    <Transaction>2022/08/25 15:07:06.000.563,=C:\Users\LENOVO\Documents\Blangkon\Aplikasi\Sunny Malaysia\Scroll Down Load\sources\BFA.Helper.Main.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5" Android="" Android64="055832507T002127"/>
+		<NoProfile iOSSimulator="iPhone5" Android="Android_8" Android64="Android_8"/>
 	</ActiveMobileDevice>
 </BorlandProject>
